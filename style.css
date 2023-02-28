@@ -1,0 +1,109 @@
+body{
+    height: 100vh;
+    background-image: url("images/bodybg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align:center;
+    font-size: 45px;
+    font-family: 'Arvo', cursive;
+    color: red;
+
+    animation-name: ss;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    
+}
+
+
+
+
+.text{
+    color: white;
+}
+
+#d1{
+    height: 150px;
+    width: 150px;
+  
+    background-image: url("images/tom3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+   
+}
+
+#d2{
+    height: 150px;
+    width: 150px;
+    
+    background-image: url("images/tom1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
+
+#d3{
+    height: 150px;
+    width: 150px;
+    
+    background-image: url("images/snare.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#d4{
+    height: 150px;
+    width: 150px;
+    
+    background-image: url("images/tom4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#d5{
+    height: 150px;
+    width: 150px;
+    background-image: url("images/crash.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#d6{
+    height: 150px;
+    width: 150px;
+   
+    background-image: url("images/tom2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.animation {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
+
+@keyframes ss{
+    0%{
+        color: blue;
+    }
+    25%{
+        color: yellow;
+    }
+    75%{
+        color: green;
+    }
+    100%{
+        color: darkmagenta;
+    }
+}
